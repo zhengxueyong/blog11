@@ -528,10 +528,11 @@ def returnurl(request):
 # 支付宝异步回调是post请求
 @csrf_exempt
 def appnotifyurl(request):
+    print('支付成功')
     if request.method == 'POST':
         # 获取到参数
         body_str = request.body.decode('utf-8')
-        print(123123123)
+        # print(123123123)
         # 通过parse_qs函数
         post_data = parse_qs(body_str)
 
@@ -544,7 +545,7 @@ def appnotifyurl(request):
         out_trade_no = post_dic['out_trade_no']
 
         # 更新状态
-        OrderInfo.objects.filter(order_sn=out_trade_no).update(status=1)
+        OrderInfo.objects.filter(order_sn=out_trade_no).update(pay_status=1)
 
 
     return JsonResponse({'msg':'success'})
@@ -554,21 +555,19 @@ def pay(request):
     # print(request.GET.get('orderid'))
 
     orderid = request.GET.get('orderid')
+    print(orderid)
     order = OrderInfo.objects.get(pk=orderid)
 
-    sum = 0
-    for orderGoods in order.ordergoods_set.all():
-        sum += orderGoods.goods.shop_price * orderGoods.goods_nums
 
-    # 支付地址信息
+    # # 支付地址信息
     data = alipay.direct_pay(
         subject='MackBookPro [256G 8G 灰色]', # 显示标题
         out_trade_no=order.order_sn,    # 爱鲜蜂 订单号
-        total_amount=str(sum),   # 支付金额
-        return_url='http://127.0.0.1:8000/shop/returnurl/'
+        total_amount=str(order.order_mount),   # 支付金额
+        return_url='http://127.0.0.1:8000/fresh/returnurl/'
     )
-
-    # 支付地址
+    #
+    # # 支付地址
     alipay_url = 'https://openapi.alipaydev.com/gateway.do?{data}'.format(data=data)
 
     response_data = {

@@ -26,6 +26,7 @@ url(r'^media/(?P<path>.*)$', serve, {'document_root':settings.MEDIA_ROOT}),
     #生成订单
     url(r'^neworder/$',views.neworder,name='neworder'),
     #立即购买
+    url(r'^returnurl/$', views.returnurl, name='returnurl'),  # 支付成功后，客户端的显示
     url(r'^bug/$',views.bug,name='bug'),
     url(r'^appnotifyurl/$', views.appnotifyurl, name='appnotifyurl'),  # 支付成功后，订单的处理
     url(r'^pay/$', views.pay, name='pay'),  # 支付

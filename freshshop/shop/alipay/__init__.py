@@ -37,6 +37,7 @@ class AliPay(object):
         else:
             self.__gateway = "https://openapi.alipay.com/gateway.do"
 
+    # def direct_pay(self, subject, out_trade_no, return_url=None, **kwargs):
     def direct_pay(self, subject, out_trade_no, total_amount, return_url=None, **kwargs):
         biz_content = {
             "subject": subject,
@@ -130,9 +131,9 @@ alipay_public_key_path = os.path.join(BASE_DIR, 'shop/alipay/ALIPAY_PUBLIC_KEY.t
 # return_url: 客户端，支付完成后客户端进行的页面跳转(同步操作)
 alipay = AliPay(
     appid="2016092800612155",  # 设置签约的appid
-    app_notify_url="http://127.0.0.1:8001/shop/appnotifyurl/",   # 异步支付通知url
+    app_notify_url="http://127.0.0.1:8000/fresh/appnotifyurl/",   # 异步支付通知url
     app_private_key_path=app_private_key_path,  # 设置应用私钥
     alipay_public_key_path=alipay_public_key_path,  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
     debug=True,  # 默认False,            # 设置是否是沙箱环境，True是沙箱环境
-    return_url="http://127.0.0.1:8001/shop/returnurl/",   # 同步支付通知url,在这个页面可以展示给用户看，只有付款成功后才会跳转
+    return_url="http://127.0.0.1:8000/fresh/returnurl/",   # 同步支付通知url,在这个页面可以展示给用户看，只有付款成功后才会跳转
 )
