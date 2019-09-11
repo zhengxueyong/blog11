@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/freshshop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1568175258541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/freshshop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1568178641112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/freshshop$views.coverage" NAME="views Coverage Results" MODIFIED="1557226931872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shop" />
   </component>
   <component name="DatabaseView">
@@ -46,15 +46,24 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4617">
-              <caret line="294" column="23" lean-forward="true" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
+            <state relative-caret-position="19">
+              <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/freshshop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="180" selection-start-line="180" selection-end-line="180" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/shop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -101,7 +110,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/63724a68-fb51-49cd-a35f-5217f91288b4/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/63724a68-fb51-49cd-a35f-5217f91288b4/console_3.sql" />
         <option value="$PROJECT_DIR$/freshshop/urls.py" />
-        <option value="$PROJECT_DIR$/freshshop/settings.py" />
         <option value="$PROJECT_DIR$/templates/detail.html" />
         <option value="$PROJECT_DIR$/templates/place_order.html" />
         <option value="$PROJECT_DIR$/alipay/__init__.py" />
@@ -113,14 +121,15 @@
         <option value="$PROJECT_DIR$/static/js/order.js" />
         <option value="$PROJECT_DIR$/shop/alipay/__init__.py" />
         <option value="$PROJECT_DIR$/shop/views.py" />
+        <option value="$PROJECT_DIR$/freshshop/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="312" />
-    <option name="width" value="944" />
-    <option name="height" value="624" />
+    <option name="x" value="950" />
+    <option name="y" value="311" />
+    <option name="width" value="945" />
+    <option name="height" value="625" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,34 +148,7 @@
             <path>
               <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="freshshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="freshshop" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,9 +168,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django_ttsx_fresh\freshshop" />
       <recent name="E:\Django_ttsx_fresh\freshshop\static\js" />
       <recent name="E:\Django_ttsx_fresh\freshshop\shop" />
-      <recent name="E:\Django_ttsx_fresh\freshshop" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -331,11 +313,12 @@
       <workItem from="1565143604732" duration="14000" />
       <workItem from="1567672241553" duration="20868000" />
       <workItem from="1567993547694" duration="38335000" />
+      <workItem from="1568178551070" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189129000" />
+    <option name="totallyTimeSpent" value="189355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,12 +333,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.107908845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13203754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21246459" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3895184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,20 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/63724a68-fb51-49cd-a35f-5217f91288b4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/migrations/0004_auto_20190429_1113.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/63724a68-fb51-49cd-a35f-5217f91288b4/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/63724a68-fb51-49cd-a35f-5217f91288b4/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -487,13 +456,6 @@
     <entry file="file://$PROJECT_DIR$/shop/migrations/0002_useraddress.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freshshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2660">
-          <caret line="140" column="37" selection-start-line="140" selection-start-column="37" selection-end-line="140" selection-end-column="37" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user_center_info.html">
@@ -573,20 +535,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://63724a68-fb51-49cd-a35f-5217f91288b4/schema/freshshop/table/f_order_goods">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://63724a68-fb51-49cd-a35f-5217f91288b4/schema/freshshop/table/f_order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://63724a68-fb51-49cd-a35f-5217f91288b4/schema/freshshop/table/f_order_goods" />
+    <entry file="das://63724a68-fb51-49cd-a35f-5217f91288b4/schema/freshshop/table/f_order" />
     <entry file="file://$PROJECT_DIR$/static/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -638,9 +588,7 @@
     <entry file="file://$PROJECT_DIR$/freshshop/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/orderdetail.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/orderdetail.js" />
     <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2188">
@@ -714,16 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://63724a68-fb51-49cd-a35f-5217f91288b4/schema/freshshop/table/shop_orderinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -740,11 +678,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4617">
-          <caret line="294" column="23" lean-forward="true" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
+        <state relative-caret-position="19">
+          <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/LogMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freshshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
         </state>
       </provider>
     </entry>
